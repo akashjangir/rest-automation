@@ -1,0 +1,137 @@
+2016-05-13 12:07:57 DEBUG JsonParser:43 - File is not found in specified path: D:\angular_workspace\glukoo-rest\src\main\java\com\glukoo\rest\testdata\SampleTestData.json (The system cannot find the path specified), please check with file path
+2016-05-13 12:07:57 INFO  SampleTestSuiteBase:49 - Could not parse json file
+2016-05-13 12:08:00 DEBUG BasicClientConnectionManager:159 - Get connection for route {s}->https://httpbin.org
+2016-05-13 12:08:00 DEBUG DefaultClientConnectionOperator:177 - Connecting to httpbin.org:443
+2016-05-13 12:08:02 DEBUG RequestAddCookies:132 - CookieSpec selected: ignoreCookies
+2016-05-13 12:08:02 DEBUG RequestAuthCache:78 - Auth cache not set in the context
+2016-05-13 12:08:02 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2016-05-13 12:08:02 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2016-05-13 12:08:02 DEBUG DefaultHttpClient:713 - Attempt 1 to execute request
+2016-05-13 12:08:02 DEBUG DefaultClientConnection:269 - Sending request: GET /get HTTP/1.1
+2016-05-13 12:08:02 DEBUG wire:63 - >> "GET /get HTTP/1.1[\r][\n]"
+2016-05-13 12:08:02 DEBUG wire:63 - >> "Accept: */*[\r][\n]"
+2016-05-13 12:08:02 DEBUG wire:63 - >> "Host: httpbin.org[\r][\n]"
+2016-05-13 12:08:02 DEBUG wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+2016-05-13 12:08:02 DEBUG wire:63 - >> "User-Agent: Apache-HttpClient/4.2.6 (java 1.5)[\r][\n]"
+2016-05-13 12:08:02 DEBUG wire:63 - >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-05-13 12:08:02 DEBUG wire:63 - >> "[\r][\n]"
+2016-05-13 12:08:02 DEBUG headers:273 - >> GET /get HTTP/1.1
+2016-05-13 12:08:02 DEBUG headers:276 - >> Accept: */*
+2016-05-13 12:08:02 DEBUG headers:276 - >> Host: httpbin.org
+2016-05-13 12:08:02 DEBUG headers:276 - >> Connection: Keep-Alive
+2016-05-13 12:08:02 DEBUG headers:276 - >> User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+2016-05-13 12:08:02 DEBUG headers:276 - >> Accept-Encoding: gzip,deflate
+2016-05-13 12:08:02 DEBUG wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+2016-05-13 12:08:02 DEBUG wire:63 - << "Server: nginx[\r][\n]"
+2016-05-13 12:08:02 DEBUG wire:63 - << "Date: Fri, 13 May 2016 06:35:16 GMT[\r][\n]"
+2016-05-13 12:08:02 DEBUG wire:63 - << "Content-Type: application/json[\r][\n]"
+2016-05-13 12:08:02 DEBUG wire:63 - << "Content-Length: 247[\r][\n]"
+2016-05-13 12:08:02 DEBUG wire:63 - << "Connection: keep-alive[\r][\n]"
+2016-05-13 12:08:02 DEBUG wire:63 - << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-05-13 12:08:02 DEBUG wire:63 - << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-05-13 12:08:02 DEBUG wire:63 - << "[\r][\n]"
+2016-05-13 12:08:02 DEBUG DefaultClientConnection:254 - Receiving response: HTTP/1.1 200 OK
+2016-05-13 12:08:02 DEBUG headers:257 - << HTTP/1.1 200 OK
+2016-05-13 12:08:02 DEBUG headers:260 - << Server: nginx
+2016-05-13 12:08:02 DEBUG headers:260 - << Date: Fri, 13 May 2016 06:35:16 GMT
+2016-05-13 12:08:02 DEBUG headers:260 - << Content-Type: application/json
+2016-05-13 12:08:02 DEBUG headers:260 - << Content-Length: 247
+2016-05-13 12:08:02 DEBUG headers:260 - << Connection: keep-alive
+2016-05-13 12:08:02 DEBUG headers:260 - << Access-Control-Allow-Origin: *
+2016-05-13 12:08:02 DEBUG headers:260 - << Access-Control-Allow-Credentials: true
+2016-05-13 12:08:02 DEBUG DefaultHttpClient:543 - Connection can be kept alive indefinitely
+2016-05-13 12:08:02 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:532 - Parsing response as: application/json
+2016-05-13 12:08:02 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:535 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2016-05-13 12:08:03 DEBUG wire:63 - << "{[\n]"
+2016-05-13 12:08:03 DEBUG wire:63 - << "  "args": {}, [\n]"
+2016-05-13 12:08:03 DEBUG wire:63 - << "  "headers": {[\n]"
+2016-05-13 12:08:03 DEBUG wire:63 - << "    "Accept": "*/*", [\n]"
+2016-05-13 12:08:03 DEBUG wire:63 - << "    "Accept-Encoding": "gzip,deflate", [\n]"
+2016-05-13 12:08:03 DEBUG wire:63 - << "    "Host": "httpbin.org", [\n]"
+2016-05-13 12:08:03 DEBUG wire:63 - << "    "User-Agent": "Apache-HttpClient/4.2.6 (java 1.5)"[\n]"
+2016-05-13 12:08:03 DEBUG wire:63 - << "  }, [\n]"
+2016-05-13 12:08:03 DEBUG wire:63 - << "  "origin": "1.186.29.6", [\n]"
+2016-05-13 12:08:03 DEBUG wire:63 - << "  "url": "https://httpbin.org/get"[\n]"
+2016-05-13 12:08:03 DEBUG wire:63 - << "}[\n]"
+2016-05-13 12:08:03 DEBUG BasicClientConnectionManager:201 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3c9bfddc
+2016-05-13 12:08:03 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2016-05-13 12:08:03 INFO  SampleTestSuiteBase:49 - {
+  "args": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip,deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "Apache-HttpClient/4.2.6 (java 1.5)"
+  }, 
+  "origin": "1.186.29.6", 
+  "url": "https://httpbin.org/get"
+}
+
+2016-05-13 12:08:03 INFO  SampleTestSuiteBase:49 - Response Body does not Matched
+2016-05-13 12:09:26 DEBUG BasicClientConnectionManager:159 - Get connection for route {s}->https://httpbin.org
+2016-05-13 12:09:26 DEBUG DefaultClientConnectionOperator:177 - Connecting to httpbin.org:443
+2016-05-13 12:09:28 DEBUG RequestAddCookies:132 - CookieSpec selected: ignoreCookies
+2016-05-13 12:09:28 DEBUG RequestAuthCache:78 - Auth cache not set in the context
+2016-05-13 12:09:28 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2016-05-13 12:09:28 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2016-05-13 12:09:28 DEBUG DefaultHttpClient:713 - Attempt 1 to execute request
+2016-05-13 12:09:28 DEBUG DefaultClientConnection:269 - Sending request: GET /get HTTP/1.1
+2016-05-13 12:09:28 DEBUG wire:63 - >> "GET /get HTTP/1.1[\r][\n]"
+2016-05-13 12:09:28 DEBUG wire:63 - >> "Accept: */*[\r][\n]"
+2016-05-13 12:09:28 DEBUG wire:63 - >> "Host: httpbin.org[\r][\n]"
+2016-05-13 12:09:28 DEBUG wire:63 - >> "Connection: Keep-Alive[\r][\n]"
+2016-05-13 12:09:28 DEBUG wire:63 - >> "User-Agent: Apache-HttpClient/4.2.6 (java 1.5)[\r][\n]"
+2016-05-13 12:09:28 DEBUG wire:63 - >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-05-13 12:09:28 DEBUG wire:63 - >> "[\r][\n]"
+2016-05-13 12:09:28 DEBUG headers:273 - >> GET /get HTTP/1.1
+2016-05-13 12:09:28 DEBUG headers:276 - >> Accept: */*
+2016-05-13 12:09:28 DEBUG headers:276 - >> Host: httpbin.org
+2016-05-13 12:09:28 DEBUG headers:276 - >> Connection: Keep-Alive
+2016-05-13 12:09:28 DEBUG headers:276 - >> User-Agent: Apache-HttpClient/4.2.6 (java 1.5)
+2016-05-13 12:09:28 DEBUG headers:276 - >> Accept-Encoding: gzip,deflate
+2016-05-13 12:09:28 DEBUG wire:63 - << "HTTP/1.1 200 OK[\r][\n]"
+2016-05-13 12:09:28 DEBUG wire:63 - << "Server: nginx[\r][\n]"
+2016-05-13 12:09:28 DEBUG wire:63 - << "Date: Fri, 13 May 2016 06:36:42 GMT[\r][\n]"
+2016-05-13 12:09:29 DEBUG wire:63 - << "Content-Type: application/json[\r][\n]"
+2016-05-13 12:09:29 DEBUG wire:63 - << "Content-Length: 247[\r][\n]"
+2016-05-13 12:09:29 DEBUG wire:63 - << "Connection: keep-alive[\r][\n]"
+2016-05-13 12:09:29 DEBUG wire:63 - << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-05-13 12:09:29 DEBUG wire:63 - << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-05-13 12:09:29 DEBUG wire:63 - << "[\r][\n]"
+2016-05-13 12:09:29 DEBUG DefaultClientConnection:254 - Receiving response: HTTP/1.1 200 OK
+2016-05-13 12:09:29 DEBUG headers:257 - << HTTP/1.1 200 OK
+2016-05-13 12:09:29 DEBUG headers:260 - << Server: nginx
+2016-05-13 12:09:29 DEBUG headers:260 - << Date: Fri, 13 May 2016 06:36:42 GMT
+2016-05-13 12:09:29 DEBUG headers:260 - << Content-Type: application/json
+2016-05-13 12:09:29 DEBUG headers:260 - << Content-Length: 247
+2016-05-13 12:09:29 DEBUG headers:260 - << Connection: keep-alive
+2016-05-13 12:09:29 DEBUG headers:260 - << Access-Control-Allow-Origin: *
+2016-05-13 12:09:29 DEBUG headers:260 - << Access-Control-Allow-Credentials: true
+2016-05-13 12:09:29 DEBUG DefaultHttpClient:543 - Connection can be kept alive indefinitely
+2016-05-13 12:09:29 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:532 - Parsing response as: application/json
+2016-05-13 12:09:29 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:535 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2016-05-13 12:09:29 DEBUG wire:63 - << "{[\n]"
+2016-05-13 12:09:29 DEBUG wire:63 - << "  "args": {}, [\n]"
+2016-05-13 12:09:29 DEBUG wire:63 - << "  "headers": {[\n]"
+2016-05-13 12:09:29 DEBUG wire:63 - << "    "Accept": "*/*", [\n]"
+2016-05-13 12:09:29 DEBUG wire:63 - << "    "Accept-Encoding": "gzip,deflate", [\n]"
+2016-05-13 12:09:29 DEBUG wire:63 - << "    "Host": "httpbin.org", [\n]"
+2016-05-13 12:09:29 DEBUG wire:63 - << "    "User-Agent": "Apache-HttpClient/4.2.6 (java 1.5)"[\n]"
+2016-05-13 12:09:29 DEBUG wire:63 - << "  }, [\n]"
+2016-05-13 12:09:29 DEBUG wire:63 - << "  "origin": "1.186.29.6", [\n]"
+2016-05-13 12:09:29 DEBUG wire:63 - << "  "url": "https://httpbin.org/get"[\n]"
+2016-05-13 12:09:29 DEBUG wire:63 - << "}[\n]"
+2016-05-13 12:09:29 DEBUG BasicClientConnectionManager:201 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4c5474f5
+2016-05-13 12:09:29 DEBUG BasicClientConnectionManager:228 - Connection can be kept alive indefinitely
+2016-05-13 12:09:29 INFO  SampleTestSuiteBase:49 - {
+  "args": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip,deflate", 
+    "Host": "httpbin.org", 
+    "User-Agent": "Apache-HttpClient/4.2.6 (java 1.5)"
+  }, 
+  "origin": "1.186.29.6", 
+  "url": "https://httpbin.org/get"
+}
+
